@@ -8,10 +8,8 @@
 /* Reset */
 @import url("reset.css?ver=0.1");
 
-/* webfont */
-.wf-loading body {
-  font-family:'Hiragino Sans GB',Helvetica,Arial,sans-serif;
-}
+/* Webfont */
+@import url(http://fonts.googleapis.com/css?family=Cookie);
 
 body {
   background:#f7f7f7 url('../img/bg.jpg') repeat;
@@ -68,12 +66,12 @@ section {
 }
 
 article h2 {
-  font-size:26px;
+  font-size:24px;
   margin-bottom:10px;
 }
 
 p {
-  font-size:30px;
+  font-size:27px;
   margin-bottom:20px;
   text-align:left;
 }
@@ -87,7 +85,6 @@ p input {
   border:none;
   color:#555;
   font:32px/22px 'Cookie', 'Ubuntu', Tahoma, sans-serif;
-  margin-bottom:5px;
   width:210px;
 	-webkit-transition:color .33s ease;
 	-moz-transition:color .33s ease;
@@ -99,7 +96,7 @@ p input:hover {
 }
 
 ul {
-  font-size:21px;
+  font-size:19px;
   line-height:27px;
 }
 

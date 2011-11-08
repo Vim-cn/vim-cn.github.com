@@ -6,60 +6,37 @@
           \ V /   | | | |  | ||_____|| |___ | |\  |
            \_/   |___||_|  |_|        \____||_| \_|
 -->
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv = "X-UA-Compatible" content = "IE=Edge,chrome=1" > 
-  <title>Vimcn Community</title>
-  <link rel="stylesheet" href="resource/css/style.css" type="text/css" media="screen" charset="utf-8" />
-  <link rel="shortcut icon" type="image/x-icon" href="resource/img/favicon.ico"/>
-  <script type="text/javascript">
-    WebFontConfig = {
-      google: { families: ['Cookie'] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-    function select() {
-      var text = document.form1.type();
-      text.focus();
-      text.select();
-    }
-  </script>
-  <!--[if IE]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-<body class="wf-loading">
-  <header unselectable="on">
-    <h1>Vim-cn</h1>
-    <div class="clearfix"></div>
-  </header>
-  <section>
-    <article>
-      <h2>:欢迎登录</h2>
-      <p><del>Vim-cn XMPP server</del> <input name="group" type="text" value="test&#64;vim-cn.com" onclick="select()" spellcheck="false" autocomplete="off" readonly/></p>
-      <p class="notice">11/08/2011: 服务器尚在测试中</p>
-    </article>
-    <article>
-      <h2>:其他项目</h2>
-      <ul>
-        <li><a href="http://tip.vim-cn.com">Vim 便利贴</a></li>
-        <li><a href="http://planet.vim-cn.com">Vim 中文星</a></li>
-        <li><a href="http://p.vim-cn.com">Vinergy</a></li>
-        <li><a href="http://elimage.edisonnotes.com">Elimage</a></li>
-      </ul>
-    </article>
-  </section>
-  <footer>
-    <a title="Follow @vim_cn" href="https://twitter.com/vim_cn"><img alt="twitter" src="resource/img/icon.png"/></a>
-    <a href="http://tip.vim-cn.com">Copyleft Vim-cn Community 2011</a>
-  </footer>
-</body>
+<html lang="zh">
+<meta charset="UTF-8">
+<meta http-equiv = "X-UA-Compatible" content = "IE=Edge,chrome=1" > 
+<title>Vimcn Community</title>
+<link rel="stylesheet" href="resource/css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="resource/img/favicon.ico"/>
+<!--[if IE]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<header unselectable="on">
+  <h1>Vim-cn</h1>
+  <div class="clearfix"></div>
+</header>
+<section>
+  <article>
+    <h2>:欢迎登录</h2>
+    <p>Vim-cn XMPP server <input name="group" type="text" value="test&#64;vim-cn.com" onclick="this.focus();this.select()" spellcheck="false" autocomplete="off" readonly/></p>
+    <p class="notice">11/08/2011: 服务器尚在测试中</p>
+  </article>
+  <article>
+    <h2>:其他项目</h2>
+    <ul>
+      <li><a href="http://tip.vim-cn.com">Vim 便利贴</a></li>
+      <li><a href="http://planet.vim-cn.com">Vim 中文星</a></li>
+      <li><a href="http://p.vim-cn.com">Vinergy</a></li>
+      <li><a href="http://elimage.edisonnotes.com">Elimage</a></li>
+    </ul>
+  </article>
+</section>
+<footer>
+  <a title="Follow @vim_cn" href="https://twitter.com/vim_cn"><img alt="twitter" src="resource/img/icon.png"/></a>
+  <a href="http://tip.vim-cn.com">Copyleft Vim-cn Community 2011</a>
+</footer>
 </html>
