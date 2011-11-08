@@ -78,6 +78,10 @@ p {
   text-align:left;
 }
 
+p.notice {
+  font-size:14px;
+}
+
 p input {
   background-color:transparent;
   border:none;
