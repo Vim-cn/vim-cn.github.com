@@ -1,0 +1,120 @@
+/*
+  * @Author:Vayn a.k.a. VT <vayn@vayn.de>
+  * @Name:style.css
+  * @Date:2011年03月30日 星期三 19时07分52秒
+  *
+  */
+
+/* Reset */
+@import url("reset.css?ver=8.0");
+
+/* webfont */
+.wf-loading body {
+  font-family:'Hiragino Sans GB',Helvetica,Arial,sans-serif;
+}
+
+body {
+  background:#f7f7f7 url('../img/bg.jpg') repeat;
+  color:#555;
+  cursor:default;
+  font-family:'Hiragino Sans GB',Helvetica,Arial,sans-serif;
+  text-shadow:1px 1px 0 #fff;
+}
+
+a {
+  color:#555;
+  text-decoration:none;
+	-webkit-transition:color .33s ease;
+	-moz-transition:color .33s ease;
+	transition:color .33s ease;
+}
+
+a:hover {
+  color:#677;
+}
+
+img {
+  border:none;
+}
+
+.clearfix:before, .clearfix:after {
+  content:'';
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1;
+}
+
+header {
+  margin:0 auto;
+  width:630px;
+  -moz-user-select:-moz-none;
+  -webkit-user-select:none;
+}
+
+header h1 {
+  float:right;
+  font-family:'Cookie',georgian,serif;
+  font-size:167px;
+  margin-top:20px;
+}
+
+section {
+  margin:-10px auto 0;
+  width:640px;
+}
+
+article h2 {
+  font-size:26px;
+  margin-bottom:10px;
+}
+
+p {
+  font-size:30px;
+  margin-bottom:20px;
+  text-align:left;
+}
+
+p input {
+  background-color:transparent;
+  border:none;
+  color:#555;
+  font:32px/22px 'Cookie', 'Ubuntu', Tahoma, sans-serif;
+  margin-bottom:5px;
+  width:210px;
+	-webkit-transition:color .33s ease;
+	-moz-transition:color .33s ease;
+	transition:color .33s ease;
+}
+
+p input:hover {
+  color:#677;
+}
+
+ul {
+  font-size:21px;
+  line-height:27px;
+}
+
+ul li {
+  list-style-type:square;
+  margin-left:30px;
+}
+
+footer {
+  position:absolute;
+  bottom:35px;
+  left:50%;
+  margin-left:-70px;
+}
+
+footer a {
+  color:#838075;
+}
+
+footer img {
+  vertical-align:-5px;
+}
