@@ -12,7 +12,7 @@ body {
   background:#f8f8f8 url('../img/bg404.jpg') repeat;
 }
 
-section {
+article {
   position:absolute;
   width:450px;
   height:60px;

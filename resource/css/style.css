@@ -60,12 +60,12 @@ header h1 {
   margin-top:20px;
 }
 
-section {
+article {
   margin:-10px auto 0;
   width:640px;
 }
 
-article h2 {
+section h2 {
   font-size:24px;
   margin-bottom:10px;
 }
