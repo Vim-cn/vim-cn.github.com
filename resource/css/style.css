@@ -140,3 +140,8 @@ footer a {
 footer img {
   vertical-align:-5px;
 }
+
+sup {
+  font-size: 75%;
+  vertical-align: super;
+}
